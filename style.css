@@ -1,0 +1,35 @@
+h1 {
+    color: blue; 
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+h2 {
+    color: rgb(128, 128, 128);
+    font-size: large;
+    font-weight: 200;
+}
+h3 {
+    color: rgb(128, 128, 128);
+    font-size: large;
+    font-weight: 200;
+}
+h4 {
+    color: rgb(128, 128, 128);
+    font-size: large;
+    font-weight: 200;
+}
+h5 {
+    color: rgb(128, 128, 128);
+    font-size: large;
+    font-weight: 200;
+}
+h6 {
+    color: rgb(128, 128, 128);
+    font-size: large;
+    font-weight: 200;
+}
+#text {
+    font-size: 12px;
+    font-weight: 200;
+}
