@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+       font-size: small;
+        font-family:Arial, Helvetica, sans-serif; 
+        font-weight: lighter;
+        text-rendering: geometricPrecision;
+    }
+    h2, h3, h4
+    { 
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+    }
+     h1{
+        text-align: center;
+        font-size: 27px;
+        font-weight: bold;
+     }
+    .code1 
+    {
+     background-color: rgb(236, 228, 228);
+    }
+     .underline
+     {
+        text-decoration: underline dotted;
+     }
+     .text1
+     {
+        font-weight: bold;
+     }
+     #bUnderline
+     {
+        text-decoration: underline dotted;
+        font-weight: bold;
+     }
+     .background
+     {
+    background-color: rgb(236, 228, 228);
+    color: brown;
+     }
+     .id0{
+        font-size: 2px;
+     }
+    </style>
+</head>
+<body>
+<h1 id="z1">HTML Tutorial</h1>
+<hr>
+<h2>What is HTML?</h2>
+<p><span class="text1">Hypertext Markup Language</span> (<span id="bUnderline">HTML)</span> is the standard markup language for creating web pages and web <br> 
+   applications. <br><br>
+   Web browsers receive <span class="underline">HTML</span> documents from a web server or from local storage and render the documents <br> 
+   into multimedia web pages. <span class="underline">HTML</span> describes the structure of a web page semantically and originally <br>
+   included cues for the appearance of the document.
+
+  <br><br><span class="underline">HTML</span> elements are the building blocks of <span class="underline">HTML</span> pages. With <span class="underline"></span>HTML</span> constructs, images and other objects <br> 
+  such as interactive forms may be embedded into the rendered page. <span class="underline"></span>HTML</span> provides a means to create <br>
+  structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, <br>
+  quotes and other items. <span class="underline">HTML</span> elements are delineated by tags, written using angle brackets. Tags such as <br>
+  <span class="background">&ltimg /></span> and <span class="background">&ltinput></span> directly introduce content into the page. Other tags such as <span class="background">&ltp></span> surround and <br>
+  provide information about document text and may include other tags as sub-elements. Browsers do not <br>
+  display the <span class="underline">HTML</span> tags, but use them to interpret the content of the page.</p>
+  <hr>
+  <h3>Markup</h3>
+<p><span class="underline">HTML</span> markup consists of several key components, including those called tags (and their attributes), <br>
+   character-based data types, character references and entity references. <span class="underline">HTML</span> tags most commonly come in <br>
+   pairs like <span class="background">&lth1></span> and <span class="background">&lt/h1>,</span> although some represent empty elements and so are unpaired, for example <br>
+   <span class="background">&ltimg></span>. The first tag in such a pair is the start tag, and the second is the end tag (they are also called opening <br>
+   tags and closing tags).
+
+<br><br>   Another important component is the <span class="underline">HTML</span> document type declaration, which triggers standards mode rendering.
+<br><br>The following is an example of the classic "Hello, World!" program:</p>
+
+<div class="code1"><span style="color: brown;"><div style="padding-left: 15px;">&lt!DOCTYPE html><br>
+    &lthtml> </div>
+    <div style="padding-left: 30px;">&lthead></div></span> 
+    <div style="padding-left: 60px;"><span style="color: brown;">&lttitle></span>This is a title<span style="color: brown;">&lt/title></span><br></div>
+    <div style="padding-left: 30px;"><span style="color: brown;">&lt/head> <br>
+    &ltbody></div>
+    <div style="padding-left: 60px;"><span style="color: brown;">&ltp></span>Hello world!<span style="color: brown;">&lt/p> <br></div>
+    <div style="padding-left: 30px; color: brown;">&lt/body><br></div>
+    <div style="padding-left: 15px; color: brown;">&lt/html> </div></span>
+</div>
+</div>
+<hr>    
+<span class="text1">Tags:</span><span style="color: rgb(47, 124, 108); background-color: rgb(202, 200, 200);">CodingScripting head HTML Introduction to HTML Landing Links semantics Structure Text</span>
+</body>
+</html>
